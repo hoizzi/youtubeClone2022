@@ -1,16 +1,21 @@
 {
   "name": "workplace",
   "version": "1.0.0",
-  "description": "The best way to watch videos.",
-  "main": "index.js",
+  "description": "2022 Youtube Clone Coding",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/hoizzi/youtubeClone2022.git"
+  },
+  "scripts": {
+    "win": "node index.js"
   },
   "author": "Hoizzi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hoizzi/youtubeClone2022/issues"
   },
-  "homepage": "https://github.com/hoizzi/youtubeClone2022#readme"
+  "homepage": "https://github.com/hoizzi/youtubeClone2022#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
