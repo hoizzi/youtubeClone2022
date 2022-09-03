@@ -7,7 +7,7 @@
     "url": "git+ssh://git@github.com/hoizzi/youtubeClone2022.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node index.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "author": "Hoizzi",
   "license": "MIT",
