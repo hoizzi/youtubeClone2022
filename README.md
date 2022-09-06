@@ -2,15 +2,15 @@
 
 / -> Home
 /join -> Join
-/login -> Login
+/login -> Log In
 /search -> Search
 
+/users/:id -> See User
+/users/logout -> Log Out
+/users/edit -> Edit My Profile
+/users/remove -> Remove My Profile
 
-/users/edit -> Edit User
-/users/delete -> Delete User
-
-/video/watch -> Watch Video
-/video/edit -> Edit Video
-/video/delete -> Delete Video
-/video/comments -> Comment on a Video
-/video/comments/delete -> Delete A Comment of a Video
+/video/:id -> Watch Video
+/video/:id/edit -> Edit Video
+/video/:id/remove -> Remove Video
+/video/upload -> Upload Video
